@@ -18,10 +18,16 @@ iou_thre = 0.5
 ratio_mi = 0.5 # ratio_cd = 1-ratio_mi
 kernel_pram = 80
 thresh_pram = 80 # percentile, from small to big
-input_path = "/home/dell/jlh/ultralytics/ultralytics/datasets/inria/images/inria_P6/"
+#input_path = "/home/dell/jlh/ultralytics/ultralytics/datasets/inria/images/inria_P6/"
+input_path = "/home/n12660973/PAD/PAD/images-in_out/in"
+
+###------- what was originally here -------###
 # image_path = "/home/dell/jlh/ultralytics/ultralytics/datasets/inria/images/inria_P3/"
 # final_map_path = "/home/dell/jlh/my_patch_defense/code/inria_P3_final_map"
-save_path = "defended_inria_P6/"
+###------- what was originally here -------###
+
+# save_path = "defended_inria_P6/"
+save_path = "/home/n12660973/PAD/PAD/images-in_out/out"
 
 def get_mask(image, mask_generator):
     
