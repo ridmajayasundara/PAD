@@ -7,6 +7,8 @@ Setup
 conda create --name pad python=3.8<br>
 conda activate pad<br>
 pip install -r requirements.txt<br>
+mkdir -p segment-anything/models
+wget -P segment-anything/models/ https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth
 
 Usage
 ----
